@@ -1,0 +1,17 @@
+{
+    "pages": [
+        "pages/home/index",
+        "pages/map/index",
+        "pages/cloudFunction/index"
+    ],
+    "window": {
+        "backgroundColor": "#F6F6F6",
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#F6F6F6",
+        "navigationBarTitleText": "王者战力查询",
+        "navigationBarTextStyle": "black"
+    },
+    "sitemapLocation": "sitemap.json",
+    "style": "v2",
+    "servicemarket": true
+}

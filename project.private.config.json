@@ -1,0 +1,28 @@
+{
+  "projectname": "%E8%8D%A3%E8%80%80%E6%88%98%E5%8A%9B%E7%9C%81%E6%A0%87%E5%88%86%E6%95%B0%E8%B0%83%E6%9F%A5",
+  "setting": {
+    "compileHotReLoad": true,
+    "urlCheck": false
+  },
+  "description": "项目私有配置文件。此文件中的内容将覆盖 project.config.json 中的相同字段。项目的改动优先同步到此文件中。详见文档：https://developers.weixin.qq.com/miniprogram/dev/devtools/projectconfig.html",
+  "condition": {
+    "miniprogram": {
+      "list": [
+        {
+          "name": "地图",
+          "pathName": "pages/map/index",
+          "query": "heroInfo=\"{\"uid\":\"109\",\"name\":\"妲己\",\"alias\":\"魅力之狐-妲己\",\"platform\":\"苹果-微信区\",\"photo\":\"https://game.gtimg.cn/images/yxzj/img201606/heroimg/109/109.jpg\",\"area\":\"临潭县\",\"areaPower\":\"1146\",\"city\":\"阳泉市\",\"cityPower\":\"3953\",\"province\":\"西藏自治区\",\"provincePower\":\"5652\",\"guobiao\":\"9733\",\"stamp\":\"1653952398\",\"updatetime\":\"2022/05/31 07:13:18\",\"clientIP\":\"111.197.250.70\"}\"",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "cloudFunction调用",
+          "pathName": "pages/cloudFunction/index",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        }
+      ]
+    }
+  }
+}

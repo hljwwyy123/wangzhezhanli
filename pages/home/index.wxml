@@ -1,0 +1,36 @@
+<view class="text-center bg-white">
+		<ad unit-id="adunit-bf31b1a68a2adfe6" ad-type="video" ad-theme="white"></ad>
+		<view>
+				<view class="cu-bar justify-center">
+						<view class="action sub-title">
+								<text class="text-xl text-bold text-blue">英雄列表</text>
+								<text class="bg-blue" style="width:5rem"></text>
+						</view>
+				</view>
+				<view class="picker-section">
+						<picker mode="multiSelector" bindchange="bindMultiPickerChange" value="{{multiIndex}}" range="{{multiArray}}" range-key="label">
+								<view class="picker">
+										<text class="text-xl text-bold text-blue">选择大区：</text>
+										<view class="picker-result">
+												( {{multiArray[0][multiIndex[0]].label}} {{multiArray[1][multiIndex[1]].label}} )
+												<text class="bg-blue" style="width:5rem"></text>
+										</view>
+										<text class="bg-blue" style="width:5rem"></text>
+								</view>
+						</picker>
+				</view>
+				<view class="cu-list grid sticky-header">
+						<view class="group-wrapper">
+								<view class="hero-group-item" wx:for="{{herolist}}" wx:key="item" bindtap="filterHero" data-group="{{item.group}}">
+										<view class="group-label">{{item.label}}</view>
+								</view>
+						</view>
+				</view>
+				<view class="cu-list grid col-5">
+						<view class="heroDiv" wx:for="{{currHeroList}}" wx:key="item" bindtap="findHero" data-hero="{{item.cname}}">
+								<image src="{{item.iconUrl}}" class="heroImg"></image>
+								<text>{{item.cname}}</text>
+						</view>
+				</view>
+		</view>
+</view>

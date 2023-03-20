@@ -1,0 +1,12 @@
+<map id="hero_map" style="width: 100%; height: 100vh;" latitude="{{latitude}}" longitude="{{longitude}}" scale="{{scale}}">
+<view>
+  <view class="hero-map-bar">
+    <image class="hero-photo" src="{{heroInfo.photo}}" />
+    <view class="displayFlex">
+      <view>区标 - {{heroInfo.area}}</view>
+      <view>市标 - {{heroInfo.city}}</view>
+      <view>省标 - {{heroInfo.province}}</view>
+    </view>
+  </view>
+</view>
+</map>

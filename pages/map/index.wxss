@@ -1,0 +1,22 @@
+.hero-map-bar {
+    display: flex;
+    align-items: center;
+    background-color: rgba(0, 0, 0, .3);
+    color: white;
+    padding: 10rpx;
+}
+
+.hero-map-bar .hero-photo {
+    width: 46px;
+    height: 46px;
+    border: 2px solid #258DF2;
+    border-radius: 10px 0 10px 0;
+    margin-right: 12px;
+}
+
+.hero-map-bar .hero-info {}
+
+.displayFlex {
+    display: flex;
+    flex-direction: column;
+}
